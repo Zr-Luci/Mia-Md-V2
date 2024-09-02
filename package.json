@@ -8,7 +8,6 @@
             "run": "pm2 start lib/smd.js --deep-monitoring --attach --name 𝙼𝙸𝙰-𝙼𝙳-⚠︎ || node lib/smd.js",
             "start": "pm2 start lib/smd.js --attach --name 𝙼𝙸𝙰-𝙼𝙳-⚠︎ || node lib/smd.js",
             "stop": "pm2 stop 𝙼𝙸𝙰-𝙼𝙳-⚠︎",
-            "heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
    },
    "author": "LuciZR",
    "license" :"Apache-2.0",
